@@ -33,3 +33,19 @@
 ```bash
 curl -sSL https://raw.githubusercontent.com/BrdifyIR/Install-panel/main/Install.sh -o Install.sh && chmod +x Install.sh && ./Install.sh
 ```
+
+## 💻 راهنمای استفاده از منو (Interactive Menu)
+
+پس از اجرای اسکریپت، منوی تعاملی زیر برای شما باز می‌شود که شامل گزینه‌های مدیریت کامل پنل است:
+
+گزینه‌های 1 تا 5: نصب سریع و خودکار پنل پاسارگاد بر پایه دیتابیس انتخابی شما (از TimescaleDB تا PostgreSQL).
+
+6) Install SSL Certificate for Panel: با وارد کردن ایمیل و دامنه خود، اسکریپت به صورت خودکار سرتیفیکیت SSL را دریافت کرده و در پوشه اختصاصی دامنه در سرور پاسارگاد ذخیره می‌کند.
+
+7) Generate Temp Key (Token): اجرای دستور ساخت توکن برای دسترسی سریع به پنل و ساخت ادمین.
+  
+8) Backup Panel to Telegram Bot: اجرای فرآیند سرویس پشتیبان‌گیری پاسارگاد و ارسال بکاپ‌ها به ربات تلگرام.
+
+9) Restore Backup: فراخوانی سیستم بازگردانی پاسارگاد برای ریستور کردن بکاپ‌های قبلی.
+
+0) Back to Main Menu / Exit: خروج امن از برنامه یا بازگشت به منوی قبلی.
