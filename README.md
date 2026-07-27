@@ -29,3 +29,7 @@
 ## 🚀 دستور نصب و راه‌اندازی (Installation)
 
 برای اجرای اسکریپت روی سرور خود، ابتدا ترمینال را باز کرده و با دسترسی Root دستور زیر را کپی و اجرا کنید:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/BrdifyIR/Install-panel/main/Install.sh -o Install.sh && chmod +x Install.sh && ./Install.sh
+```
